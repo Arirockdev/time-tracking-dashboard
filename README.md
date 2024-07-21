@@ -3,13 +3,12 @@
 ![Design preview for the Time tracking dashboard coding challenge](./src/design/desktop-preview.jpg)
 
 ## Welcome! 👋
-
-hi i finished this challenge from frontend mentor.
+Hi i finished this challenge from frontend mentor.
 
 I use for this project:
 HTM, CSS grid and JavaScript
 
-This is the link for the deploy project
+This is the [link](https://arirockdev.github.io/time-tracking-dashboard/) for the deploy project
 
 Thanks and happy coding
 
