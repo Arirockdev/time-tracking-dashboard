@@ -1,4 +1,4 @@
-const datosJson  = '../data.json';
+const datosJson  = 'https://raw.githubusercontent.com/Arirockdev/time-tracking-dashboard/main/data.json';
 
 let h4 = document.querySelectorAll('h4');
 
