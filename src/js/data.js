@@ -1,9 +1,9 @@
-const datosJson  = 'https://raw.githubusercontent.com/Arirockdev/time-tracking-dashboard/main/data.json';
+// const datosJson  = 'https://raw.githubusercontent.com/Arirockdev/time-tracking-dashboard/main/data.json';
 
 let h4 = document.querySelectorAll('h4');
 
 export const dataTitle = () => {
-  fetch(datosJson)
+  fetch('https://raw.githubusercontent.com/Arirockdev/time-tracking-dashboard/main/data.json')
     .then(resp => resp.json())
     .then(data => {
       data.forEach((datos, index) => {
@@ -22,7 +22,7 @@ const currentTime = document.querySelectorAll('.date');
 
 export const printTimesFramesDay = () => {
   
-  fetch(datosJson)
+  fetch('https://raw.githubusercontent.com/Arirockdev/time-tracking-dashboard/main/data.json')
     .then(resp => resp.json())
     .then(data => {
       data.forEach((item, index) => {
@@ -38,7 +38,7 @@ export const printTimesFramesDay = () => {
 
 export const printTimesFramesWeek = () => {
   
-  fetch(datosJson)
+  fetch('https://raw.githubusercontent.com/Arirockdev/time-tracking-dashboard/main/data.json')
     .then(resp => resp.json())
     .then(data => {
       data.forEach((item, index) => {
@@ -53,7 +53,7 @@ export const printTimesFramesWeek = () => {
 
 export const printTimesFramesMonth = () => {
   
-  fetch(datosJson)
+  fetch('https://raw.githubusercontent.com/Arirockdev/time-tracking-dashboard/main/data.json')
     .then(resp => resp.json())
     .then(data => {
       data.forEach((item, index) => {
