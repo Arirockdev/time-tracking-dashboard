@@ -6,7 +6,7 @@
 Hi i finished this challenge from frontend mentor.
 
 I use for this project:
-HTM, CSS grid and JavaScript
+HTM, CSS grid and JavaScript (fetch)
 
 This is the [link](https://arirockdev.github.io/time-tracking-dashboard/) for the deploy project
 
