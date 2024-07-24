@@ -107,8 +107,8 @@ footer{
 }
 
 .selected {
-  color: #bdc1ff;
-  font-weight: 500;
+  color: #bdc1ff !important;
+  font-weight: 500 !important;
 }
 
 
