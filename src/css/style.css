@@ -308,18 +308,25 @@ footer{
     gap: 3rem;
   }
 
-  
+ 
+  nav {
+    padding: 1.5rem 0rem !important;
+  }
+
   .user {
-    padding: 5rem 3rem;
+    padding: 3.5rem 2.5rem;
     display: flex;
     flex-direction: column;
     & p {
       font-size: 1.5rem;
-      margin-bottom: 15px;
+      margin-bottom: 5px;
+      color: var(--pale-blue);
     }
     & h1 {
-      font-size: 3.5rem;
+      font-size: 4rem;
       margin-bottom: 10px;
+      color: white;
+      padding-bottom: 4.5rem;
     }
     & img {
       width: 70px;
@@ -331,9 +338,9 @@ footer{
   ul {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2.2rem;
     padding: 0 3rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
  
@@ -358,23 +365,26 @@ footer{
     width: 100%;
     h4 {
       font-size: 1.8rem;
+      color: white;
+      font-weight: 400;
     }
   }
   
   .date {
     height: 100%; 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  & p:first-child {
-    font-size: 5rem;
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    & p:first-child {
+      font-size: 5rem;
+      margin-top: 15px;
+      color: white;  
+    }
+     & p:last-child {
+      font-size: 1.4rem;
+      margin-bottom: 30px; 
+    }
   }
-  & p:last-child {
-    font-size: 1.4rem;
-    margin-bottom: 30px; 
-  }
-}
 
   footer {
     grid-column: 1 / 3;
@@ -392,7 +402,7 @@ footer{
 
 @media screen and (width >= 1440px){
   .container {
-    margin-top: 200px;
+    margin-top: 220px;
     max-width: 1114px;
     max-height: auto;
     gap: 2rem;  
