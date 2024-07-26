@@ -303,10 +303,30 @@ footer{
     height: auto;
     display: grid;
     margin: auto;
-    margin-top: 10rem;
     grid-template-columns: 25% 75%;
     gap: 3rem;
+    margin-top: 240px;
+    max-height: auto;
+    gap: 2rem;  
   }
+
+  header {
+    width: 255px;
+    height: 520px;
+  }
+   
+    
+  
+
+
+  .card {
+    width: 255px;
+    height: 245px;
+    padding: 4rem 0 0 0;
+  }
+    
+
+  
 
  
   nav {
@@ -329,8 +349,8 @@ footer{
       padding-bottom: 2rem;
     }
     & img {
-      width: 80px;
-      margin-bottom: 30px; 
+      width: 85px;
+      margin-bottom: 20px; 
     }
   }
   
@@ -345,10 +365,7 @@ footer{
   }
 
  
-  .card {
-  padding: 4rem 0 0 0;
-} 
- 
+
   .cards {
     width: 100%;
     display: grid;
@@ -377,7 +394,7 @@ footer{
     flex-direction: column;
     align-items: flex-start;
     & p:first-child {
-      font-size: 5rem;
+      font-size: 5.5rem;
       margin-top: 15px;
       color: white;  
     }
@@ -385,8 +402,8 @@ footer{
       font-size: 1.4rem;
       margin-bottom: 30px; 
     }
-  }
 
+  }
   footer {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
@@ -403,7 +420,7 @@ footer{
 
 @media screen and (width >= 1440px){
   .container {
-    margin-top: 230px;
+    margin-top: 240px;
     max-width: 1114px;
     max-height: auto;
     gap: 2rem;  
@@ -412,22 +429,17 @@ footer{
   header {
     width: 255px;
     height: 520px;
-  
-    
-  
   }
 
 
   .card {
     width: 255px;
     height: 245px;
-    
-
-  
   }
+    
  .date {
   & p:first-child {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
   & p:last-child {
     font-size: 1.4rem;
